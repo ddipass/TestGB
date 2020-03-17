@@ -1,0 +1,14 @@
+{
+    "name": "gitbook-plugin-abletimeline",
+    "description": "Gitbook abletimeline plugin",
+    "main": "index.js",
+    "version": "0.1.0",
+    "author": {
+        "email": "ddipass@163.com",
+        "name": "ddipass"
+    },
+    "engines": {
+        "gitbook": "*"
+    },
+    "license": "MIT"
+}

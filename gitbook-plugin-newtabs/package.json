@@ -1,0 +1,18 @@
+{
+    "name": "gitbook-plugin-newtabs",
+    "description": "Enable simple tabs in GitBook by using Twitter Bootstrap",
+    "main": "index.js",
+    "version": "0.1.3",
+    "author": {
+        "email": "ddipass@163.com",
+        "name": "ddipass"
+    },
+    "dependencies": {
+        "gitbook-markdown": "^2.0.1",
+        "lodash": "^4.17.4"
+    },
+    "engines": {
+        "gitbook": ">2.x.x"
+    },
+    "license": "MIT"
+}

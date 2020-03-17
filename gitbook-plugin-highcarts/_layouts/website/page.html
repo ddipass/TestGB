@@ -1,0 +1,26 @@
+{% extends template.self %}
+
+{% block head %}
+    {{ super() }}
+    {% if config.pluginsConfig.highcharts.type == 'highmap' %}
+    <script src="{{ 'gitbook-plugin-highcharts/jquery.min.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/highcharts.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/highcharts-more.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/highcharts-zh_CN.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/modules/map.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/modules/funnel.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/modules/heatmap.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/modules/wordcloud.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/modules/timeline.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/modules/sankey.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/modules/annotations.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/tools/clocktools.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/tools/exporting.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/tools/data.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/tools/oldie.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/maps/world.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-highcharts/maps/us-all-all.js'|resolveAsset }}"></script>
+    {% else %}
+    <script src="{{ 'gitbook-plugin-highcharts/jquery.min.js'|resolveAsset }}"></script>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,19 @@
+
+.timer-background{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+
+.timer-container {
+    display: table-cell;
+	background-color: rgb(9, 40, 86);
+}
+
+#timer-line {
+	color: white;
+	font-family: 'Lato', Helvetiva, Arial, sans-serif;
+	text-align: center;
+}
+

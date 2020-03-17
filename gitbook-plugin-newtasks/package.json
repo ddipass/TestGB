@@ -1,0 +1,14 @@
+{
+    "name": "gitbook-plugin-newtasks",
+    "description": "Gitbook NewTasks Plugin",
+    "main": "index.js",
+    "version": "0.0.3",
+    "author": {
+        "email": "ddipass@163.com",
+        "name": "ddipass"
+    },
+    "engines": {
+        "gitbook": "*"
+    },
+    "license": "MIT"
+}

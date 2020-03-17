@@ -1,0 +1,14 @@
+{
+    "name": "gitbook-plugin-dtimer",
+    "description": "Gitbook Digital Timer Plugin",
+    "main": "index.js",
+    "version": "0.0.6",
+    "author": {
+        "email": "ddipass@163.com",
+        "name": "ddipass"
+    },
+    "engines": {
+        "gitbook": "*"
+    },
+    "license": "MIT"
+}

@@ -1,0 +1,58 @@
+
+.task-container {
+  margin: 0 auto;
+  min-width: 500px;
+  width: 45%;
+  text-align: left;
+  color: #3b3b3b;
+  font-weight: bold;
+}
+
+form[class="task-add-items"] {
+  outline: 0;
+  height: 36px;
+  margin-top: 5%;
+  border: 3px solid #3b3b3b;
+}
+
+input[class="task-control"] {
+  outline: 0;
+  width: 55%;
+  height: 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+.task-add {
+  outline: 0;
+  float: right;
+  width: 34%;
+  height: 30px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: #3b3b3b;
+}
+
+ul[class="task-ul"] {
+  padding: 0;
+  text-align: left;
+  list-style: none;
+}
+
+hr[class="task-hr"] {
+  border-bottom: 0;
+  margin: 15px 0;
+}
+
+input[class="task-checkbox"] { width: 30px; }
+
+.task-remove {
+  float: right;
+  cursor: pointer;
+}
+
+.task-completed { text-decoration: line-through; }

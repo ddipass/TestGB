@@ -1,0 +1,14 @@
+{
+    "name": "gitbook-plugin-highcharts",
+    "description": "Gitbook Highcharts plugin",
+    "main": "index.js",
+    "version": "0.7.7",
+    "author": {
+        "email": "ddipass@163.com",
+        "name": "ddipass"
+    },
+    "engines": {
+        "gitbook": "*"
+    },
+    "license": "MIT"
+}
