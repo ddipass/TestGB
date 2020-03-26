@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Minimal To-do List And Task Manager App</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/dtable-styles.css">
+        <script src="assets/dtable.js"></script>
+        <script src="assets/jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+        <div class="dtable" id="dtable-01"></div>
+        <div class="dtable" id="dtable-02"></div>
+        <div class="dtable" id="dtable-03"></div>
+        <div class="dtable" id="dtable-04"></div>
+        <script type="text/javascript">
+            var json = [ {
+                    "基金名称": "XXXX5G产业发展投资基金（有限合伙）",
+                    "注册地点": "中国境内",
+                    "规模基金": "基金目标规模10.1亿， 基金规模会根据GP募资情况进行调整。",
+                    "存续期限": "3+3年，投资期和回收期各3年，经投委会同意可适当延长。",
+                    "有限合伙人": " 中国境内合格投资者，总计不超过49名。最低认缴额为1000万",
+                    "普通合伙人": "GP：北京XXX管理中心（有限合伙）（拟设立）",
+                    "管理人": "北京顺澄股权投资基金管理有限公司",
+                    "出资方式": "分两次出资，第一次是基金设立后出资50%，第二次在投资期第二年出资剩余50%",
+                    "基金管理费": "1. 2%<br>2. 即投资期内年度管理费金额为认缴出资的2%；<br>3. 投资期后年度管理费金额为届时未退出项目的投资成本中有限合伙人分摊部分的2%",
+                    "投资阶段": "基金主要投资于成长期项目",
+                    "投资策略": "1、基金主要通过对中国境内企业或项目的股权或与股权相关的权益投资，获取资本增值。<br>2、对单个企业的投资比例最高不得超过标的企业股权30%，不能成为第一大股东，且不超过基金总规模的20%。<br>3、目标退出方式为IPO、资产并购、目标公司约定赎回等。",
+                    "投资领域": "5G应用相关产业，主要包括VR/AR、车联网、智能制造、无人机、智慧电网",
+                    "投资决策委员会": "基金的最高决策机构为投资决策委员会，投决会由3-5人组成。", 
+                    "投资收益分配原则": "投资收益按照单个项目退出收益（Case by case）进行分配，分配顺序如下：<br>1、归还所有合伙人实际出资。<br>2、支付所有合伙人优先回报（优先回报每年8%）。<br>3、经上述分配后的余额按有限合伙人80%，普通合伙人20%的比例分配。<br>4、普通合伙人的LP按出资比例分配收益。"
+                }
+            ];
+            genTable("#dtable-01", json, {set:"Trans"});
+            genTable("#dtable-02", json, {set:"Orign", color:"yellow"});
+            urlTable("#dtable-03", "http://localhost:8080/return/table.json", {set:"Orign", color:"blue"});
+            urlTable("#dtable-04", "http://localhost:8080/return/table.json", {set:"Trans", color:"red"});
+        </script>
+    </body>
+</html>
+

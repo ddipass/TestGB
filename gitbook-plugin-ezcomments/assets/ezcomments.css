@@ -1,0 +1,114 @@
+
+/* Name Card */
+
+.ezcomments-row {
+  display: table;
+  margin: auto;
+}
+
+.ezcomments-card {
+  display: table-cell;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  max-width: 200px;
+}
+
+.ezcomments-name {
+  color: grey;
+}
+
+.ezcomments-title {
+  color: grey;
+}
+
+/* Header */
+
+.ezcomments-ctn {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  padding: 1%;
+}
+
+/* Image Setup */
+
+.ezcomments-img {
+  width: 120px;
+  border-radius: 5px;
+  display: block;
+  max-width: 100%;
+  margin-right: 20px;
+  margin-left: 0;
+  float: left;
+}
+
+/* Comments Text Setup */
+
+.ezcomments-light {
+  color: #888;
+  text-align: right;
+  margin-right: 5%;
+}
+
+/* Briefing Setup */
+
+.ezcomments-ctn-brief {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  padding: 1%;
+}
+
+.ezcomments-img-brief {
+  width: 150px;
+  border-radius: 5px;
+  display: block;
+  max-width: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+  float: right;
+}
+
+.ezcomments-light-brief {
+  color: #888;
+  text-align: left;
+  margin-right: 2%;
+}
+
+
+
+
+
+
+.ezcomments-ctn-conf {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  padding: 3%;
+}
+
+.ezcomments-light-conf {
+  margin: 0;
+  color: #888;
+  text-align: left;
+  margin-right: 2%;
+}
+
+.ezcomments-img-conf {
+  width: 350px;
+  border-radius: 5px;
+  display: block;
+  max-width: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+  float: right;
+}
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>baguetteBox.js | Demo</title>
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets/css/dgGallery.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/dgGallery.js"></script>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0;
+        }
+
+        .content {
+            max-width: 1160px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="dgTable">
+            <blockquote class="dgCaption-left">
+                <div class="dgDiv-left" id="dgCap01">
+                </div>           
+            </blockquote>
+            <div class="dgGallery dgRight" id="dgBox01">
+            </div>
+        </div>
+        <div class="dgTable">
+            <div class="dgGallery dgLeft" id="dgBox02">
+            </div>
+            <blockquote class="dgCaption-right">
+                <div class="dgDiv-right" id="dgCap02">
+                </div>           
+            </blockquote>
+        </div>
+        <div class="dgTable">
+            <div class="dgGallery" id="dgBox03">
+            </div>
+        </div>
+    </div>
+    <script>
+        var json = {};
+        var caption = {};
+        var img_url = "";
+        // Gallery 01
+        img_url = "http://localhost:8080/stream/";
+        json = { "directory": "img/feed", 
+                 "render":    "", 
+                 "type":      "all" };
+        // Render Pictures
+        dgJPEGfeed("dgBox01", img_url, json);
+        // Caption 01
+        caption = [
+            { "h1": "Smiths Joe" },
+            { "h1": "Smiths Joe" },
+            { "h1": "Smiths Joe" },
+            { "h1": "Smiths Joe" }
+        ]
+        dgCaption("dgCap01", caption);
+        // Gallery 02
+        img_url = "http://localhost:8080/stream/";
+        json = { "directory": "img/feed", 
+                 "render":    "", 
+                 "type":      "all" };
+        // Render Pictures
+        dgJPEGfeed("dgBox02", img_url, json);
+        // Caption 02
+        caption = [
+            { "h1": "Smiths Joe" },
+            { "h2": "Smiths Joe" },
+            { "h3": "Smiths Joe" },
+            { "h4": "Smiths Joe" }
+        ]
+        dgCaption("dgCap02", caption);
+        // Gallery 03
+        img_url = "http://localhost:8080/stream/";
+        json = { "directory": "img", 
+                 "render":    "", 
+                 "type":      "all" };
+        // Render Pictures
+        dgJPEGfeed("dgBox03", img_url, json);
+    </script>
+</body>
+</html>

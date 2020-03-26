@@ -1,0 +1,37 @@
+.dtable{
+	/*background-color: red;*/
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.dtable-row{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 4px; /*Optional*/
+}
+
+.dtable-container {
+    display: table-cell;
+	padding: 1px;
+    border-radius: 5px;
+	background-color: rgb(9, 40, 86);
+}
+
+#dtable-line {
+	color: white;
+	font-family: 'Lato', Helvetiva, Arial, sans-serif;
+	text-align: center;
+}
+
+.dtable-col {
+    display: table-cell;
+}
+
+.dtable-unit {
+	background-color: rgb(9, 40, 86);
+	padding: 1px;
+	margin: 1px;
+    border-radius: 5px;
+}
+

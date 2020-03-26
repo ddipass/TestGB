@@ -1,0 +1,60 @@
+.dgTable {
+    display: table;
+    margin: 4px 4px 4px 4px;
+}
+
+.dgCaption-left {
+    display: table-cell;
+    max-width: 1600px;
+    vertical-align: top;
+    border-left: 4px solid gray !important;
+    border-right: none !important;
+}
+
+.dgDiv-left {
+    margin: 8px 12px;
+    text-align: left;
+}
+
+.dgCaption-right {
+    display: table-cell;
+    max-width: 1600px;
+    vertical-align: top;
+    border-left: none !important;
+    border-right: 4px solid gray !important;
+}
+
+.dgDiv-right {
+    margin: 8px 12px;
+    text-align: right;
+}
+
+.dgLeft {
+    text-align: left;
+}
+
+.dgRight {
+    text-align: right;
+}
+
+.dgCenter {
+    text-align: center;
+}
+
+.dgGallery {
+    display: table-cell;
+    margin: 4px 6px;
+}
+
+.dgGallery img {
+    height: 100%;
+}
+
+.dgGallery-Sub {
+    width: 240px;
+    height: 180px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 4px 6px;
+    box-shadow: 0 0 4px -1px #000;
+}

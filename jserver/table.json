@@ -1,0 +1,18 @@
+[
+    {
+        "city":"Brisban",
+        "offset":"+10"
+    },
+    {
+        "city":"Montreal",
+        "offset":"-10"
+    },
+    {
+        "city":"Singapore",
+        "offset":"+8"
+    },
+    {
+        "city":"London/rgb(9, 40, 10)",
+        "offset":"+1"
+    }
+]

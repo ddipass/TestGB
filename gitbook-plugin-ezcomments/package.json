@@ -1,8 +1,8 @@
 {
-    "name": "gitbook-plugin-highcharts",
-    "description": "Gitbook Highcharts plugin",
+    "name": "gitbook-plugin-ezcomments",
+    "description": "Gitbook Easy Comments Plugin",
     "main": "index.js",
-    "version": "0.7.8",
+    "version": "0.0.5",
     "author": {
         "email": "ddipass@163.com",
         "name": "ddipass"
